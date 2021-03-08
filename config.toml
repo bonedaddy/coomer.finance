@@ -1,0 +1,26 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Coomer Finance"
+theme = ["hugo-notice", "terminal"]
+staticDir = "static"
+enableRobotsTXT = "true"
+
+[params]
+  # source of content
+  description = "Coomer's sole purpose in life is finding alpha and leaking it to worthy apes. Eat, Sleep, Leak. Cooming Soon."
+  contentTypeName = "blog"
+  themeColor = "green"
+  showMenuItems = 5
+  showLanguageSelector = false
+  fullWidthTheme = false
+  centerTheme = true
+  showLastupdate = false
+  enableGitInfo = true
+  favicon = "favicon.ico"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Coomer Finance"
+    [languages.en.params.logo]
+      logoText = "Home"
